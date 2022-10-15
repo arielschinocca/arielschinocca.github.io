@@ -1,0 +1,121 @@
+
+.logo{
+    border-radius: 50%;
+}
+
+li {
+    padding: 10px;
+    font-family:fantasy;
+    font-size: x-large;
+}
+
+.nav nav{
+    width: 100%;
+    position: fixed;
+}
+
+.row img{
+    border-radius: 10%;
+    margin: 2px;
+}
+
+.section1{
+    padding: 13%;
+}
+section{
+    background-color: black;
+    width: 100%;
+}
+
+html{
+    background-color: pink;
+}
+
+nav{
+    position: fixed;
+}
+
+.formulario{
+    padding: 4%;
+}
+
+.formularioHijo{
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+    width: 280px;
+    border: solid 2px white;
+    background-color: rgb(248, 197, 134);
+    border-radius: 3%;
+}
+
+form ul li{
+    list-style: none;
+    border-radius: 2%;
+}
+
+footer{
+    background-color: pink;
+    padding: 5%;
+}
+.texto p{
+    color: white;
+}
+
+.container  img:hover{
+    padding: 10px;
+}
+
+footer ul li{
+    list-style: none;
+    text-align: end;
+}
+
+h4{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    width: 100%;
+}
+
+.listaFooter li{
+    text-align: left;
+    color: white;
+    list-style: none;
+}
+
+.ordenar .footerContacto{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(250, 94, 120);
+}
+
+
+.ordenar .footerNosotros{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(250, 94, 120);
+}
+
+.NuestrosComienzos a{
+    color: white;
+    text-decoration: none;
+}
+
+.NuestrosComienzos a:hover{
+    color: brown;
+}
+
+.ordenar .footerServicios{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(250, 94, 120);
+}
+
+.ordenar .footerEmail{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(250, 94, 120);
+}
+

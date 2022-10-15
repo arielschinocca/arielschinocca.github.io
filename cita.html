@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="citas.css">
+    <title>turnos</title>
+</head>
+<body>
+    <h1>xuxa.nail : <strong>Turnos</strong></h1>
+    <div class="divContenedor">
+    <div class="divImagen">
+        <img src="./imagenes/cita.png" alt="">
+    </div>
+    </div>
+    <h4><i class="agendar"></i>Agendar</h4>
+    <form class="form" action="formulario">
+        <div class="divContenedor2">
+            
+            <div class="divForm">
+            <label for="guestname" class="NombreUsuario">Ingrese su nombre</label>
+            <label for="">
+                <input type="text">
+            </label>
+            </div>
+
+            <div class="divForm">
+                <label for="guestemail" class="NombreUsuario">Email </label>
+                <label for="guestemail" class="field prepend-icon">
+                <input type="email" name="guestemail" id="guestemail" class="gui-input" required="" placeholder="ejemplo@hotmail.com">
+                <span class="field-icon"><i class="fa fa-envelope"></i></span>  
+                </label>
+            </div>
+            
+            <div class="divForm">
+                <label for="telefonoCel" class="NombreUsuario">telefono/celular</label>
+                <input type="text" name=""  class="inputTelefono" required="" placeholder="011xxxxxx">
+                </label>
+            </div>
+
+            <div class="divForm">
+            <div class="cita">
+                <label for="checkin" class="NombreUsuario" >seleccione la cita</label>
+                <label for="checkin" class="field prepend-icon" >
+                <input type="datetime-local" id="checkin" name="checkin" class="gui-input" required="" placeholder="mm/dd/yyyy">  
+                </label>
+            </div>
+            </div>
+
+            <div class="divForm">
+                <button type="submit" class="botonConfirmar">Confirmar cita</button>
+                <button type="reset" class="botonCancelar">Cancelar</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
